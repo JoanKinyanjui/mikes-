@@ -47,7 +47,7 @@ function About() {
    {/* About */}
    <div className="grid place-content-center items-center w-full justify-center">
     <p className={`${stylez.AboutPtag} mx-auto pt-[55px] pb-[12px]`}>About</p>
-    <p className={`${stylez.AboutParagraph} pb-[12px] w-1/2 mx-auto`}> It's not that difficult to find my contact information by searching michael loupa. Know little more about me here</p>
+    <p className={`${stylez.AboutParagraph} pb-[12px] w-1/2 mx-auto`}> It&lsquo;s not that difficult to find my contact information by searching michael loupa. Know little more about me here</p>
     <div className="mx-auto py-4">
         <img src ='/images/Decorative Bar.png'/>
     </div>
@@ -176,7 +176,7 @@ For partnerships, collaborations, sponsorships, commissions, events, you can rea
       {/* About */}
       <div className="grid place-content-center items-center w-full justify-center">
         <p className={`${stylez.AboutPtagM} mx-auto pt-[30px] pb-[12px]`}>About</p>
-        <p className={`${stylez.AboutParagraphM} pb-[12px] w-10/12 mx-auto`}>It's not that difficult to find my contact information by searching Michael Loupa. Know a little more about me here.</p>
+        <p className={`${stylez.AboutParagraphM} pb-[12px] w-10/12 mx-auto`}>It&lsquo;s not that difficult to find my contact information by searching Michael Loupa. Know a little more about me here.</p>
         <div className="mx-auto py-4">
           <img src="/images/Decorative Bar.png" />
         </div>

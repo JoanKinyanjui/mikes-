@@ -1,31 +1,59 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-78c92fac7aa8fdd8.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
+  "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/q5S65IZ7wLlOBa4Y9eyKl/_buildManifest.js",
+    "static/q5S65IZ7wLlOBa4Y9eyKl/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-6cbe6e332df95288.js",
+      "static/chunks/main-d5c9aef8f3ea3bae.js",
+      "static/chunks/664-60e06c839f82ba03.js",
+      "static/css/ff01f860c2ae94fa.css",
+      "static/chunks/pages/index-7a2118a561f02d5a.js"
+    ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-6cbe6e332df95288.js",
+      "static/chunks/main-d5c9aef8f3ea3bae.js",
+      "static/css/7242de789f6afa95.css",
+      "static/chunks/pages/_app-dacb02348044a0df.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-6cbe6e332df95288.js",
+      "static/chunks/main-d5c9aef8f3ea3bae.js",
+      "static/chunks/pages/_error-54de1933a164a1ff.js"
     ],
     "/about": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/about.js"
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-6cbe6e332df95288.js",
+      "static/chunks/main-d5c9aef8f3ea3bae.js",
+      "static/chunks/664-60e06c839f82ba03.js",
+      "static/css/37dacc095ae213b4.css",
+      "static/chunks/pages/about-64c1348828206f0b.js"
+    ],
+    "/nft": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-6cbe6e332df95288.js",
+      "static/chunks/main-d5c9aef8f3ea3bae.js",
+      "static/chunks/664-60e06c839f82ba03.js",
+      "static/css/2b81dce15b83e129.css",
+      "static/chunks/pages/nft-c7fb70fd8a2bbc63.js"
+    ],
+    "/techStack": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-6cbe6e332df95288.js",
+      "static/chunks/main-d5c9aef8f3ea3bae.js",
+      "static/chunks/664-60e06c839f82ba03.js",
+      "static/css/f010888e1fb879e2.css",
+      "static/chunks/pages/techStack-0bc83eb4170f1066.js"
     ]
   },
   "ampFirstPages": []
