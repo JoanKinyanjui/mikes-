@@ -75,7 +75,7 @@ function Nft() {
 <div className={`${stylez.NftDiv} py-24`}>
 
 {nft.map((item)=>(
-  <div className={`${stylez.NftCard}  grid place-content-center`}>
+  <div  key={item.id} className={`${stylez.NftCard}  grid place-content-center`}>
   <div className={`${stylez.nftImageDiv}`}>
   <img src={item.status} className={`${stylez.AuctionTagImage}`}/>
   <img src={item.image}/>
@@ -186,7 +186,7 @@ function Nft() {
 <div className={`${stylez.NftDiv} py-8`}>
 
 {nft.map((item)=>(
-  <div className={`${stylez.NftCardM}  grid place-content-center`}>
+  <div key={item.id} className={`${stylez.NftCardM}  grid place-content-center`}>
   <div className={`${stylez.nftImageDiv}`}>
   <img src={item.status} className={`${stylez.AuctionTagImage}`}/>
   <img src={item.image}/>

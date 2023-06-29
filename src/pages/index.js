@@ -63,7 +63,7 @@ adoption.</p>
     <p className={`${styles.FeaturedPtag} py-4 `}>Featured Projects</p>
     <div className="pt-[26px] flex flex-wrap justify-center gap-6">
 {projects.map((item) => (
-  <div className={`${darkMode ? styles.FaeturedProjectsDivDarkMode : styles.FaeturedProjectsDiv} grid items-center place-content-center`}>
+  <div key={item.id} className={`${darkMode ? styles.FaeturedProjectsDivDarkMode : styles.FaeturedProjectsDiv} grid items-center place-content-center`}>
                   <img src={item.image} className={`${styles.ImageProjectDiv}`} />
                   <div className={`${styles.AllContentOfProjects}`}>
                     <p className={`${styles.SwyptName}`}>{item.name}</p>
@@ -162,7 +162,7 @@ adoption.</p>
     <p className={`${styles.FeaturedPtag} py-4 `}>Featured Projects</p>
     <div className="pt-[16px] flex flex-wrap justify-center gap-6">
 {projects.map((item) => (
-                <div className={` ${ darkMode ? styles.FaeturedProjectsDivDarkModeM :  styles.FaeturedProjectsDivM}  grid items-center place-content-center`}>
+                <div key={item.id} className={` ${ darkMode ? styles.FaeturedProjectsDivDarkModeM :  styles.FaeturedProjectsDivM}  grid items-center place-content-center`}>
                   <img src={item.image} className={`${styles.ImageProjectDivM}`} />
                   <div className={`${styles.AllContentOfProjects}`}>
                     <p className={`${styles.SwyptNameM}`}>{item.name}</p>
