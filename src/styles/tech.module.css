@@ -1,0 +1,26 @@
+.MainDesktopDiv{
+    width: 100vw;
+   min-height: 100vh;
+   background-color: white;
+   position: relative;
+}
+.MainDesktopDivDarkMode{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #1a1a2d;
+    position: relative;
+}
+.AbsoluteImage{
+    position: absolute;
+}
+.AppAndGames{
+    background-color: transparent;
+}
+.AppAndGamesDarkMode{
+    background: linear-gradient(to bottom, #2d3a89, #462f47);
+}
+
+
+/* MOBILE DESIGN */
+
+
