@@ -1,0 +1,173 @@
+.MainDesktopDiv{
+    width: 100vw;
+   min-height: 100vh;
+   background-color: white;
+   position: relative;
+}
+.MainDesktopDivDarkMode{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #0A0A0D;
+    position: relative;
+}
+.AbsoluteImage{
+    position: absolute;
+}
+.MichaelSpatial{
+font-size: 32px;
+font-family: Inter;
+font-weight: 700;
+line-height: 40px;
+background: linear-gradient(to right, #FE5F86,  #4D65FE, #65046B);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+letter-spacing: -0.672px;
+}
+.welcomeTo{
+    color: var(--light-light-gray, rgba(74, 87, 111, 0.70));
+    text-align: center;
+    font-size: 24px;
+    font-family: Inter;
+    line-height: 140%;
+    letter-spacing: -0.48px;
+}
+.CollectionNft{
+    /* color: var(--light-primary-text, #22242C); */
+font-size: 15px;
+font-family: Inter;
+opacity: 0.6000000238418579;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.135px;
+}
+.Topic{
+    color: var(--light-primary-text, #22242C);
+/* 18/18 - Bold */
+font-size: 18px;
+font-family: Inter;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.252px;
+}
+.TopicDarkMode{
+ color: white;
+/* 18/18 - Bold */
+font-size: 18px;
+font-family: Inter;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.252px;
+}
+.NftDiv{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.NftCard{
+    height: 300px;
+    width: 30%;
+    border-radius: 18px;
+    margin-bottom: 30px;
+}
+/* .NftCardDarkMode{ 
+    height: 300px;
+    width: 30%;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    color: white !important;
+} */
+.nftImageDiv{
+    position: relative !important;
+
+}
+.AuctionTagImage{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+
+}
+.nftCaptionsDiv{
+    color: var(--dark-light-gray, rgba(114, 120, 136, 0.60));
+font-size: 14px;
+font-family: Inter;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.084px;
+}
+.The3Buttons{
+    width: 50%;
+    /* background-color: #22242C; */
+}
+.MydigitalArts{
+    width: 50%;
+}
+.MydigitalArtsDarkMode{
+    width: 50%;
+    color: white;
+}
+@media only screen and (max-width: 1200px){
+    .The3Buttons{
+        width: 80%;
+        /* background-color: #22242C; */
+    }
+    .MydigitalArts{
+        width: 80%;
+    }
+}
+
+
+
+/* Mobilre Design ... */
+
+.welcomeToM{
+    color: var(--light-light-gray, rgba(74, 87, 111, 0.70));
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 140%;
+    letter-spacing: -0.48px;
+}
+.MichaelSpatialM{
+
+    /* 32/32 - Bold */
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 40px;
+    background: linear-gradient(to right, #FE5F86,  #4D65FE, #65046B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.672px;
+    }
+    .The3ButtonsM{
+        width: 90%;
+        /* background-color: #22242C; */
+    }    
+    .NftCardM{
+        height: 350px;
+        width: 40%;
+        border-radius: 15px;
+        margin-bottom: 0px;
+    }
+
+
+    .TopicM{
+        color: var(--light-primary-text, #22242C);
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.252px;
+    }
+    .TopicDarkModeM{
+        color: white;
+        font-size: 15px;
+        font-family: Inter;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.252px;
+       }
+    .MydigitalArtsM{
+        width: 90%;
+    }

@@ -1,0 +1,321 @@
+.MainDesktopDiv{
+    width: 100vw;
+   min-height: 100vh;
+   /* background-color: goldenrod; */
+    background-image: url('/images/backdrop.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.MainDesktopDivDarkMode{
+    width: 100vw;
+   min-height: 100vh;
+    background-color: #1a1a2d;
+    color: white;
+}
+.MainDesktopContentDiv{
+    width: 60%;
+    height: 100%;
+    margin : auto ;
+    padding-top: 31px;
+}
+.MainDesktopNavbar{
+   
+    width: 100%;
+    height: 56px;
+    border-radius: 12px;
+    background: var(--dark-nav-bg, rgba(28, 22, 47, 0.20));
+    backdrop-filter: blur(12px);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding : 0px 18px;
+}
+.MainDesktopNavbarMenu{
+    display: flex;
+    padding: 0px 12px;
+    align-items: flex-start;
+    gap: 24px;
+    color: white;
+    font-family: Inter;
+}
+.MainDesktopNavbarSocials{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.LoupaDiv{
+    position: relative;
+    width: 70px;
+    height: 30px;
+}
+.Loupa{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.176px;
+    background: linear-gradient(90deg, #FE5F86, #BF51C6, #4D65FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.LoupaImage{
+    width: 57px;
+    position: absolute;
+    bottom: 10%;
+    right: 0 !important;
+}
+.AboutFirstHero{
+font-size: 18px;
+font-family: Inter;
+line-height: 32px;
+letter-spacing: -0.306px;
+}
+
+
+
+.FeaturedPtag{
+    color: #767171;
+     font-size: 18px;
+     font-family: Inter;
+     font-weight: 700;
+     line-height: 32px;
+     letter-spacing: -0.306px;
+}
+.SwyptName{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.176px;
+}
+.SwyptPtag{
+     font-size: 12px;
+     font-family: Inter;
+     font-weight: 300;
+     line-height: 24px;
+     letter-spacing: -0.132px;
+}
+.ImageProjectDiv{
+    border-radius: 12px;
+    height: 200px;
+    width: 90%;
+    margin: auto;
+}
+.FaeturedProjectsDiv{
+    height: 300px;
+    width: 240px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.FaeturedProjectsDivDarkMode{
+    height: 300px;
+    width: 240px;
+    background: linear-gradient(to bottom,#010311, #081777, #37023A);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.AllContentOfProjects{
+    width: 90%;
+    margin: auto;
+}
+.ReachOutPtag{
+    font-size: 32px;
+font-family: Inter;
+font-weight: 700;
+  background: linear-gradient(to right, #FE5F86,  #4D65FE, #65046B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ReachOutImg{
+    position: relative;
+}
+.emailReachOut{
+position: absolute !important;
+bottom: 0% !important;
+right: 20%;
+width: 200px !important;
+height: 200px !important;
+}
+.messageReachOut{
+    position: absolute;
+    top: 10%;
+    width: 134px;
+    height: 134px;
+    right: 10%;
+}
+.OverallReachOutDiv{
+width: 688px;
+height: 257px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #f8f5f5;
+margin: auto;
+}
+.OverallReachOutDivDarkMode{
+width: 688px;
+height: 257px;
+flex-shrink: 0;
+border-radius: 15px;
+color: #010311;
+background-color: white;
+margin: auto;
+
+}
+.LineGray{
+    width: 73px;
+    height: 0.5px;
+    background: #767171;
+}
+.MichaelLoupa{
+    color: rgba(118, 113, 113, 0.60);
+font-size: 24px;
+font-family: Inter;
+font-style: italic;
+font-weight: 700;
+}
+.Scaling{
+    color: rgba(118, 113, 113, 0.60);
+font-size: 24px;
+font-family: Inter;
+font-style: italic;
+font-weight: 300;
+}
+@media only screen and(max-width: 1200px){
+    .FaeturedProjectsDiv{
+    height: 300px;
+    width: 250px;
+   
+}
+}
+
+@media only screen and (max-width: 1200px){
+    .MainDesktopContentDiv{
+        width: 75% !important;
+        height: 100%;
+        margin : auto ;
+        padding-top: 31px;
+    }
+}
+
+
+
+/* Mobile Design */
+.MainDesktopDivM{
+    width: 100vw;
+   min-height: 100vh;
+   background-color: goldenrod;
+    background-image: url('/images/backdrop.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.MainDesktopDivDarkModeM{
+    width: 100vw;
+   min-height: 100vh;
+    background-color: #1a1a2d;
+    color: white;
+}
+.MainDesktopContentDivM{
+    width: 90%;
+    height: 100%;
+    margin : auto ;
+    padding-top: 31px;
+}
+.AboutFirstHeroM{
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 32px;
+    letter-spacing: -0.306px;
+    }
+.FaeturedProjectsDivM{
+    height: 260px;
+    width: 160px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}   
+.FaeturedProjectsDivDarkModeM{
+    background: linear-gradient(to bottom,#010311, #081777, #37023A);
+    height: 260px;
+    width: 160px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+} 
+.ImageProjectDivM{
+    border-radius: 0px;
+    height: 160px;
+    width: 90%;
+    margin: auto;
+}
+
+
+.OverallReachOutDivM{
+    width: 100%;
+height: 200px;
+padding: 20px 0px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #FFF;
+color: black;
+margin: auto;
+}
+
+
+.ReachOutPtagM{
+    font-size: 25px;
+font-family: Inter;
+font-weight: 700;
+  background: linear-gradient(to right, #FE5F86,  #4D65FE, #65046B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.emailReachOut{
+width: 104px;
+height: 104px;
+flex-shrink: 0;
+position: absolute;
+bottom: 20%;
+left: 10%;
+}
+.messageReachOutM{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    width: 60px;
+    height: 70px;
+}
+.SwyptNameM{
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.176px;
+}
+
+.MichaelLoupaM{
+    color: rgba(118, 113, 113, 0.60);
+font-size: 18px;
+font-family: Inter;
+font-style: italic;
+font-weight: 700;
+}
+.ScalingM{
+    color: rgba(118, 113, 113, 0.60);
+font-size: 15px;
+font-family: Inter;
+font-style: italic;
+font-weight: 300;
+}
+.LineGrayM{
+    width: 40px;
+    height: 0.5px;
+    background: #767171;
+}
