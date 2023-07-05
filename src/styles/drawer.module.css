@@ -1,0 +1,38 @@
+.MichaelLoupaWord{
+    color: #0E0E0E;
+font-size: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.34px;
+}
+.DesignandDevelopment{
+    color: #767171;
+font-size: 16px;
+font-family: Inter;
+font-style: italic;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.272px;
+}
+.HomeDiv{
+    width: 100vw;
+;
+   
+}
+.HomeDiv p{
+    background: linear-gradient(90deg, #FF0099, #4D65FE) !important;
+    -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        font-size: 20px;
+        font-family: Inter;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.34px;
+}
+.BorderBox{
+    border-bottom: 1px solid rgb(162, 162, 162);
+    width: 100vw;
+}
