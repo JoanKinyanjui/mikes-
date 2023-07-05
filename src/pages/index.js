@@ -1,11 +1,19 @@
 import styles from "../styles/index.module.css";
 import projects from '../components/projects';
 import Link from "next/link";
-import { useContext } from 'react';
+import { useContext,useState} from 'react';
 import { AppStateContext } from '../AppState';
+import { SwipeableDrawer, IconButton } from '@material-ui/core';
+import Drawer from "@/components/drawer";
 
 export default function Home() {
   const { darkMode, toggleDarkMode } = useContext(AppStateContext);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+
+  const toggleDrawer = (open) => () => {
+    setIsDrawerOpen(open);
+  };
 
 
   return (
@@ -25,15 +33,11 @@ export default function Home() {
    <div className={`${styles.MainDesktopNavbarMenu}`}>
     <Link href='/nft' > <p>nft</p>  </Link>
     <Link href='/about' ><p>about</p></Link>
-    <Link href='/' > <p>work</p></Link>
-    <Link href='/' > <p>blog</p></Link>
     <Link href='/techStack' > <p>tech stack</p> </Link>
-    <div className="flex"><p className="pr-2">more</p> <img src='/images/down.png'/></div>
    </div>
 
    <div className={`${styles.MainDesktopNavbarSocials}`}>
     <div> <img src='/images/twitter (2).png' /> </div>
-    <div> <img src='/images/insta (1).png' /> </div>
     <div onClick={toggleDarkMode}> <img src='/images/moon.png' /> </div>
 
    </div>
@@ -120,22 +124,28 @@ adoption.</p>
     <img  className={`${styles.LoupaImage}`} src='/images/realvjy.png'/>
    </div>
    </Link>
-   {/* <div className={`${styles.MainDesktopNavbarMenu}`}>
-    <Link href='/nft' > <p>nft</p>  </Link>
-    <Link href='/about' ><p>about</p></Link>
-    <Link href='/' > <p>work</p></Link>
-    <Link href='/' > <p>blog</p></Link>
-    <Link href='/techStack' > <p>tech stack</p> </Link>
-    <div className="flex"><p className="pr-2">more</p> <img src='/images/down.png'/></div>
-   </div> */}
+   <IconButton onClick={toggleDrawer(true)}>
+        <img src='/images/hamburger.png'/>
+      </IconButton>
 
-   <div className={`${styles.MainDesktopNavbarSocials}`}>
-    <div> <img src='/images/twitter (2).png' /> </div>
-    <div> <img src='/images/insta (1).png' /> </div>
-    <div onClick={toggleDarkMode}> <img src='/images/moon.png' /> </div>
 
    </div>
-   </div>
+
+   <SwipeableDrawer
+        anchor="top"
+        open={isDrawerOpen}
+        onClose={toggleDrawer(false)}
+        onOpen={toggleDrawer(true)}
+      >
+        <div className="grid w-full">
+         <div className="w-full0 flex place-content-end">
+         <IconButton onClick={toggleDrawer(false)} className="" >
+            <img src='/images/close.png' className=""/>
+          </IconButton>
+         </div>
+          <Drawer />
+        </div>
+      </SwipeableDrawer>
 
    {/* First hero */}
    <div className="pt-[30px]">
@@ -181,7 +191,7 @@ adoption.</p>
       <p  className="text-sm md:text-lg" >Want to create something awesome? Or, you have any queries?</p>
       <p  className="text-sm md:text-lg" >Drop a message through email or twitter.</p>
       <div className="flex w-1/2 justify-between  pt-6 ml-0 ">
-        <img src='/images/radix.png' />
+      <img src='/images/radix.png' />
         <img src='/images/material-symbols_mail-outline-rounded.png' />
       </div>
     </div>

@@ -1,7 +1,6 @@
 .MainDesktopDiv{
     width: 100vw;
    min-height: 100vh;
-   /* background-color: goldenrod; */
     background-image: url('/images/backdrop.png'); 
     background-position: center;
     background-repeat: no-repeat;
@@ -263,6 +262,7 @@ padding: 20px 0px;
 flex-shrink: 0;
 border-radius: 15px;
 background: #FFF;
+box-shadow: 2px 2px 3px gainsboro;
 color: black;
 margin: auto;
 }
