@@ -3,7 +3,7 @@ import projects from '../components/projects';
 import Link from "next/link";
 import { useContext,useState} from 'react';
 import { AppStateContext } from '../AppState';
-import { SwipeableDrawer, IconButton } from '@material-ui/core';
+import { SwipeableDrawer, Button } from '@mui/material';
 import Drawer from "@/components/drawer";
 
 export default function Home() {
@@ -124,9 +124,9 @@ adoption.</p>
     <img  className={`${styles.LoupaImage}`} src='/images/realvjy.png'/>
    </div>
    </Link>
-   <IconButton onClick={toggleDrawer(true)}>
+   <Button onClick={toggleDrawer(true)}>
         <img src='/images/hamburger.png'/>
-      </IconButton>
+      </Button>
 
 
    </div>
@@ -139,9 +139,9 @@ adoption.</p>
       >
         <div className="grid w-full">
          <div className="w-full0 flex place-content-end">
-         <IconButton onClick={toggleDrawer(false)} className="" >
+         <Button onClick={toggleDrawer(false)} className="" >
             <img src='/images/close.png' className=""/>
-          </IconButton>
+          </Button>
          </div>
           <Drawer />
         </div>

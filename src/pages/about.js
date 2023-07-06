@@ -3,7 +3,7 @@ import stylez from '../styles/about.module.css';
 import Link from "next/link";
 import { useContext,useState } from 'react';
 import { AppStateContext } from '../AppState';
-import { SwipeableDrawer, IconButton } from '@material-ui/core';
+import { SwipeableDrawer, Button } from '@mui/material';
 import Drawer from "@/components/drawer";
 
 
@@ -150,9 +150,9 @@ For partnerships, collaborations, sponsorships, commissions, events, you can rea
     <img  className={`${styles.LoupaImage}`} src='/images/realvjy.png'/>
    </div>
    </Link>
-   <IconButton onClick={toggleDrawer(true)}>
+   <Button onClick={toggleDrawer(true)}>
         <img src='/images/hamburger.png'/>
-      </IconButton>
+      </Button>
 
 
    </div>
@@ -164,9 +164,9 @@ For partnerships, collaborations, sponsorships, commissions, events, you can rea
       >
         <div className="grid w-full">
          <div className="w-full0 flex place-content-end">
-         <IconButton onClick={toggleDrawer(false)} className="" >
+         <Button onClick={toggleDrawer(false)} className="" >
             <img src='/images/close.png' className=""/>
-          </IconButton>
+          </Button>
          </div>
           <Drawer />
         </div>
