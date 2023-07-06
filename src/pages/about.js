@@ -114,15 +114,15 @@ For partnerships, collaborations, sponsorships, commissions, events, you can rea
       <p className={`${styles.ReachOutPtag} my-4`}>Reach Out</p>
       <p>Want to create something awesome? Or, you have any queries?</p>
       <p>Drop a message through email or twitter.</p>
-      <div className="flex w-1/2 justify-between  pt-6 ml-0">
-      <img src='/images/twitterbutton.png' className="pr-6" />
+      <div className="flex w-1/2 justify-between  pt-6 ml-0 p-2">
+      <Link href="https://twitter.com/michaelloupa" > <img src='/images/radix.png' /> </Link>
         <img src='/images/material-symbols_mail-outline-rounded.png' />
       </div>
     </div>
 
     <div className={`${styles.ReachOutImg} w-1/2 flex relative h-full`}>
     <img  src='/images/message3d.png' className={`${styles.emailReachOut}`}/>
-      <img  src='/images/email3d.png' className={`${styles.messageReachOut}`}/>
+    <a href="mailto:michaelloupa@gmail.com"> <img src='/images/material-symbols_mail-outline-rounded.png' /> </a>
     </div>
    </div>
 
@@ -226,9 +226,9 @@ For partnerships, collaborations, sponsorships, commissions, events, you can rea
           <p className={`${styles.ReachOutPtagM} my-4`}>Reach Out</p>
           <p className="text-sm md:text-lg">Want to create something awesome? Or, do you have any queries?</p>
           <p className="text-sm md:text-lg">Drop a message through email or Twitter.</p>
-          <div className="flex w-1/2 justify-between  pt-6 ml-0 ">
-          <img src='/images/twitterbutton.png' className="pr-6" />
-            <img src="/images/material-symbols_mail-outline-rounded.png" />
+          <div className="flex w-1/2 justify-between  pt-6 ml-0 pb-2">
+          <Link href="https://twitter.com/michaelloupa" > <img src='/images/radix.png' /> </Link>
+          <a href="mailto:michaelloupa@gmail.com"> <img src='/images/material-symbols_mail-outline-rounded.png' /> </a>
           </div>
         </div>
         <div className={`${styles.ReachOutImg} w-1/4 flex relative h-full`}>

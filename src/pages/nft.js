@@ -62,9 +62,9 @@ function Nft() {
 <p className={`${stylez.MichaelSpatial} py-1 mx-auto`}>michael loupa’s spatial</p>
 <p className={` ${darkMode ? stylez.MydigitalArtsDarkMode : stylez.MydigitalArts} w-1/2 text-center mx-auto py-2`}>My digital arts are also available to collect from various NFT platforms. Experience my digital arts in virtual experiences on my spatial.</p>
 <div className={`${stylez.The3Buttons} flex justify-between mx-auto py-4`} >
-  <img  src="/images/opensea.png"/>
-  <img  src="/images/spatial.png"/>
-  <img  src="/images/galleries.png"/>
+<Link href='https://opensea.io/Savannah_Arts'> <img  src="/images/opensea.png" className="w-[75px]" /></Link>
+ <Link href="https://www.spatial.io/@michael_loupa_53390"> <img  src="/images/spatial.png" className="w-[75px]"/></Link>
+ <Link href="https://www.spatial.io/s/SUNSET-SAVANNAH-COLLECTION-6474bc23beec827ded58d953?share=8936219542412280757"><img  src="/images/galleries.png" className="w-[75px]"/></Link>
 </div>
  </div>
 
@@ -74,8 +74,8 @@ function Nft() {
   <p className={`${darkMode ? stylez.TopicDarkMode : stylez.Topic}`}>Sunset Savannah</p>
   <p className={`${stylez.CollectionNft} text-slate-400`}>A collection of generative AI NFTs on the ethereum blockchain. Telling african stories through generative AI. Collaboration with Savannah Arts.</p>
   <div className="flex py-4">
-    <img src='/images/spatialbutton.png' className="pr-6" />
-    <img src='/images/twitterbutton.png' />
+  <Link href="https://www.spatial.io/@michael_loupa_53390"> <img src='/images/spatialbutton.png' className="pr-6" /> </Link>
+  <Link href="https://twitter.com/michaelloupa">  <img src='/images/twitterbutton.png' /> </Link>
   </div>
 </div>
 
@@ -111,9 +111,9 @@ function Nft() {
       <p className={`${styles.ReachOutPtag} my-4`}>Reach Out</p>
       <p>Want to create something awesome? Or, you have any queries?</p>
       <p>Drop a message through email or twitter.</p>
-      <div className="flex w-1/2 justify-between  pt-6 ml-0">
-      <img src='/images/radix.png' />
-        <img src='/images/material-symbols_mail-outline-rounded.png' />
+      <div className="flex w-1/2 justify-between  pt-6 ml-0 pb-2">
+      <Link href="https://twitter.com/michaelloupa" > <img src='/images/radix.png' /> </Link> 
+      <a href="mailto:michaelloupa@gmail.com"> <img src='/images/material-symbols_mail-outline-rounded.png' /> </a>
       </div>
     </div>
 
@@ -179,20 +179,20 @@ function Nft() {
 <p className={`${stylez.MichaelSpatialM} py-1 mx-auto`}>michael loupa’s spatial</p>
 <p className={` ${stylez.MydigitalArtsM} w-full text-center mx-auto py-1`}>My digital arts are also available to collect from various NFT platforms. Experience my digital arts in virtual experiences on my spatial.</p>
 <div className={`${stylez.The3ButtonsM} flex justify-between mx-auto py-4`} >
-  <img  src="/images/opensea.png" className="w-[75px]" />
-  <img  src="/images/spatial.png" className="w-[75px]"/>
-  <img  src="/images/galleries.png" className="w-[75px]"/>
+ <Link href='https://opensea.io/Savannah_Arts'> <img  src="/images/opensea.png" className="w-[75px]" /></Link>
+ <Link href="https://www.spatial.io/@michael_loupa_53390"> <img  src="/images/spatial.png" className="w-[75px]"/></Link>
+ <Link href="https://www.spatial.io/s/SUNSET-SAVANNAH-COLLECTION-6474bc23beec827ded58d953?share=8936219542412280757"><img  src="/images/galleries.png" className="w-[75px]"/></Link>
 </div>
  </div>
 
 
  <div className="w-full mx-auto py-12">
-  <img src="/images/sunsetSavannah.png" className="mx-auto my-4 w-full h-[340px]" />
+  <img src="/images/sunsetSavannah.png" className="mx-auto my-4 w-full h-[280px]" />
   <p className={`${ darkMode ? stylez.TopicDarkModeM : stylez.Topic}`}>Sunset Savannah</p>
   <p className={`${stylez.CollectionNft} text-slate-400`}>A collection of generative AI NFTs on the ethereum blockchain. Telling african stories through generative AI. Collaboration with Savannah Arts.</p>
   <div className="flex py-4">
-    <img src='/images/spatialbutton.png' className="pr-6" />
-    <img src='/images/twitterbutton.png' />
+  <Link href="https://www.spatial.io/@michael_loupa_53390"> <img src='/images/spatialbutton.png' className="pr-6" /> </Link>
+  <Link href="https://twitter.com/michaelloupa">  <img src='/images/twitterbutton.png' /> </Link>
   </div>
 </div>
 
@@ -228,8 +228,8 @@ function Nft() {
       <p  className="text-sm md:text-lg" >Want to create something awesome? Or, you have any queries?</p>
       <p  className="text-sm md:text-lg" >Drop a message through email or twitter.</p>
       <div className="flex w-1/2 justify-between  pt-6 ml-0 ">
-      <img src='/images/radix.png' />
-        <img src='/images/material-symbols_mail-outline-rounded.png' />
+      <Link href="https://twitter.com/michaelloupa" > <img src='/images/radix.png' /> </Link>
+      <a href="mailto:michaelloupa@gmail.com"> <img src='/images/material-symbols_mail-outline-rounded.png' /> </a>
       </div>
     </div>
 

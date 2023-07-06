@@ -44,13 +44,13 @@ export default function Home() {
    </div>
    {/* First hero */}
    <div className="pt-[35px]">
-    <div className="flex place-content-start items-center px-6">
+    <div className="grid place-content-center items-center px-6">
       <div>
-        <img src='/images/mikeProfile.png' />
+        <img src='/images/mikeProfile.png' className="mx-auto" />
       </div>
-      <div className="px-4">
-        <p>Michael Loupa</p>
-        <p className="italic text-neutral-600">michaelloupa.me</p>
+      <div className="px-4 mx-auto w-full text-center">
+        <p className="mx-auto text-[20px] text-[#0E0E0E]">Michael Loupa</p>
+        <p className="italic text-neutral-600 mx-auto text-[16px]">michaelloupa.me</p>
       </div>
     </div>
     <div className="px-6 pt-[36px]">
@@ -85,9 +85,9 @@ adoption.</p>
       <p className={`${styles.ReachOutPtag} my-4`}>Reach Out</p>
       <p>Want to create something awesome? Or, you have any queries?</p>
       <p>Drop a message through email or twitter.</p>
-      <div className="flex w-1/2 justify-between  pt-6 ml-0">
-        <img src='/images/radix.png' />
-        <img src='/images/material-symbols_mail-outline-rounded.png' />
+      <div className="flex w-1/2 justify-between  pt-6 ml-0 pb-2">
+      <Link href="https://twitter.com/michaelloupa" > <img src='/images/radix.png' /> </Link>
+        <a href="mailto:michaelloupa@gmail.com"> <img src='/images/material-symbols_mail-outline-rounded.png' /> </a>
       </div>
     </div>
 
@@ -149,13 +149,13 @@ adoption.</p>
 
    {/* First hero */}
    <div className="pt-[30px]">
-    <div className="flex place-content-start items-center ">
+    <div className="grid place-content-center items-center ">
       <div>
-        <img src='/images/mikeProfile.png' />
+        <img src='/images/mikeProfile.png'  className="mx-auto"/>
       </div>
-      <div className="">
-        <p>Michael Loupa</p>
-        <p className="italic text-neutral-600">michaelloupa.me</p>
+  <div className="px-4 mx-auto w-full text-center">
+        <p className="mx-auto text-[18px] text-[#0E0E0E]">Michael Loupa</p>
+        <p className="italic text-neutral-600 mx-auto text-[15px]">michaelloupa.me</p>
       </div>
     </div>
     <div className=" pt-[30px]">
@@ -169,7 +169,7 @@ adoption.</p>
 
     {/* Featured Projects */}
     <div className='pt-[25px] mb-[50px] '>
-    <p className={`${styles.FeaturedPtag} py-4 `}>Featured Projects</p>
+    <p className={`${styles.FeaturedPtag} mx-auto flex place-content-center py-4 `}>Featured Projects</p>
     <div className="pt-[16px] flex flex-wrap justify-center gap-6">
 {projects.map((item) => (
                 <div key={item.id} className={` ${ darkMode ? styles.FaeturedProjectsDivDarkModeM :  styles.FaeturedProjectsDivM}  grid items-center place-content-center`}>
@@ -190,9 +190,9 @@ adoption.</p>
       <p className={`${styles.ReachOutPtagM} my-4`}>Reach Out</p>
       <p  className="text-sm md:text-lg" >Want to create something awesome? Or, you have any queries?</p>
       <p  className="text-sm md:text-lg" >Drop a message through email or twitter.</p>
-      <div className="flex w-1/2 justify-between  pt-6 ml-0 ">
-      <img src='/images/radix.png' />
-        <img src='/images/material-symbols_mail-outline-rounded.png' />
+      <div className="flex w-1/2 justify-between  pt-6 ml-0 pb-2">
+      <Link href="https://twitter.com/michaelloupa" > <img src='/images/radix.png' /> </Link>
+      <a href="mailto:michaelloupa@gmail.com"> <img src='/images/material-symbols_mail-outline-rounded.png' /> </a>
       </div>
     </div>
 
