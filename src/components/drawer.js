@@ -39,7 +39,7 @@ function Drawer() {
       <p  className="text-sm md:text-lg" >Want to create something awesome? Or, you have any queries?</p>
       <p  className="text-sm md:text-lg" >Drop a message through email or twitter.</p>
       <div className="flex w-1/2 justify-between  pt-6 ml-0 ">
-      <img src='/images/spatialbutton.png' className="pr-6" />
+      <img src='/images/radix.png' />
         <img src='/images/material-symbols_mail-outline-rounded.png' />
       </div>
     </div>
