@@ -319,3 +319,13 @@ font-weight: 300;
     height: 0.5px;
     background: #767171;
 }
+
+@media only screen and (max-width: 400px){
+.FaeturedProjectsDivM{
+    height: 260px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}   
+}
