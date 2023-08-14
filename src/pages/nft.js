@@ -40,15 +40,11 @@ function Nft() {
    <div className={`${styles.MainDesktopNavbarMenu}`}>
    <Link href='/nft' > <p>nft</p>  </Link>
     <Link href='/about' ><p>about</p></Link>
-    <Link href='/' > <p>work</p></Link>
-    <Link href='/' > <p>blog</p></Link>
     <Link href='/techStack' > <p>tech stack</p> </Link>
-    <div className="flex"><p className="pr-2">more</p> <img src='/images/down.png'/></div>
    </div>
 
    <div className={`${styles.MainDesktopNavbarSocials}`}>
     <div> <img src='/images/twitter (2).png' /> </div>
-    <div> <img src='/images/insta (1).png' /> </div>
     <div onClick={toggleDarkMode}> <img src='/images/moon.png' /> </div>
 
    </div>

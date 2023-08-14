@@ -42,7 +42,6 @@ function About() {
 
    <div className={`${styles.MainDesktopNavbarSocials}`}>
     <div> <img src='/images/twitter (2).png' /> </div>
-    {/* <div> <img src='/images/insta (1).png' /> </div> */}
     <div onClick={toggleDarkMode}> <img src='/images/moon.png' /> </div>
 
    </div>
