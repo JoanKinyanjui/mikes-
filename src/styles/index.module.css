@@ -207,7 +207,6 @@ font-weight: 300;
 .MainDesktopDivM{
     width: 100vw;
    min-height: 100vh;
-   background-color: goldenrod;
     background-image: url('/images/backdrop.png'); 
     background-position: center;
     background-repeat: no-repeat;
