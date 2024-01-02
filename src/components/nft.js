@@ -19,7 +19,7 @@ const nft = [
     },
     {    id:4,
         image: "/images/sunset.png",
-        price: "0.1",
+        price: "0.8",
         tagLine: "Beasts of the Mara",
         status:"/images/comingsoon.png"
     },
