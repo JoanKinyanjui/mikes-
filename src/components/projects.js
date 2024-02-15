@@ -21,7 +21,7 @@ const projects = [
         image: "/images/project4.png",
         name: "BBA",
         tagLine: "Building Africa’s largest blockchain resource center.",
-        link:"https://www.figma.com/proto/jyfhV1ErVvap2vwmXbPqjz/BBA?node-id=1-2&starting-point-node-id=119%3A1386"
+        link:"https://www.notion.so/Blockchain-Buzz-Africa-Building-Africa-s-Blockchain-Media-Resource-center-d1419a53c01d40a888fca254d296bf0d?pvs=4"
     },
     {    id:5,
         image: "/images/img2.png",
