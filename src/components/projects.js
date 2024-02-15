@@ -3,7 +3,7 @@ const projects = [
         image: "/images/img1.png",
         name: "Swypt",
         tagLine: "Defi app bridging crypto and African fiat currency",
-        link:"https://swypt.io/"
+        link:"https://www.notion.so/SWYPT-Africa-s-number-one-Defi-dapp-eb489c2819984e63bfbd0cb085f59137?pvs=4"
     },
     {    id:2,
         image: "/images/img2.png",
