@@ -44,7 +44,10 @@ function TechStack() {
    </div>
 
    <div className={`${styles.MainDesktopNavbarSocials}`}>
-    <div> <img src='/images/twitter (2).png' /> </div>
+   <Link href='https://twitter.com/michaelloupa'>
+      <div> <img src='/images/twitter (2).png' /> 
+      </div>
+    </Link>
     {/* <div> <img src='/images/insta (1).png' /> </div> */}
     <div onClick={toggleDarkMode}> <img src='/images/moon.png' /> </div>
 

@@ -1,6 +1,6 @@
 const projects = [
     {    id:1,
-        image: "/images/img1.png",
+        image: "/images/swypthero.png",
         name: "Swypt",
         tagLine: "Defi app bridging crypto and African fiat currency",
         link:"https://swypt.io/"
@@ -12,16 +12,16 @@ const projects = [
         link:"https://www.spatial.io/s/SUNSET-SAVANNAH-COLLECTION-6474bc23beec827ded58d953?share=8936219542412280757"
     },
     {    id:1,
-        image: "/images/project3.png",
-        name: "Elamak Networks",
-        tagLine:"Website for an ISP.",
-        link:""
+        image: "/images/skyswyp.png",
+        name: "Skyswyp Technologies",
+        tagLine:"Website for a technology company.",
+        link:"https://www.skyswyp.co/"
     },
     {    id:4,
-        image: "/images/project4.png",
+        image: "/images/bba.png",
         name: "BBA",
         tagLine: "Building Africa’s largest blockchain resource center.",
-        link:"https://www.figma.com/proto/jyfhV1ErVvap2vwmXbPqjz/BBA?node-id=1-2&starting-point-node-id=119%3A1386"
+        link:"https://www.bbafrica.co/"
     },
     {    id:5,
         image: "/images/img2.png",
@@ -33,7 +33,7 @@ const projects = [
         image: "/images/project6.png",
         name: "AI Product Creators",
         tagLine: "Website for an AI themed podcast and talk show.",
-        link:""
+        link:"https://aiproductcreators.com/"
     }
 ];
 

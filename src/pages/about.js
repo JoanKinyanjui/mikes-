@@ -41,7 +41,10 @@ function About() {
    </div>
 
    <div className={`${styles.MainDesktopNavbarSocials}`}>
-    <div> <img src='/images/twitter (2).png' /> </div>
+   <Link href='https://twitter.com/michaelloupa'>
+      <div> <img src='/images/twitter (2).png' /> 
+      </div>
+    </Link>
     <div onClick={toggleDarkMode}> <img src='/images/moon.png' /> </div>
 
    </div>
@@ -51,7 +54,6 @@ function About() {
    {/* About */}
    <div className="grid place-content-center items-center w-full justify-center">
     <p className={`${stylez.AboutPtag} mx-auto pt-[55px] pb-[12px]`}>About</p>
-    <p className={`${stylez.AboutParagraph} pb-[12px] w-1/2 mx-auto`}> It&lsquo;s not that difficult to find my contact information by searching michael loupa. Know little more about me here</p>
     <div className="mx-auto py-4">
         <img src ='/images/Decorative Bar.png'/>
     </div>
@@ -63,12 +65,16 @@ function About() {
 
 {/* Mission */}
 <div className={`${stylez.ContentAboutDiv} grid place-content-center pt-[40px]`}>
-    <p className={`${ darkMode ? stylez.IndividualParagraphDarkMode : stylez.IndividualParagraph}`} >My mission as a web3 designer is to work towards giving blockchain its visual identity. 
-At a point where this space needs the trust of users, increased accessibility and wider adoption, I employ a user-first approach in designing blockchain platforms that are not only interactive but also have a low-entry level of its use aimed at accelerating blockchain adoption.
+    <p className={`${ darkMode ? stylez.IndividualParagraphDarkMode : stylez.IndividualParagraph}`} >
+    As a seasoned UI/UX designer with over 4 years of experience, I specialize in crafting intuitive 
+    and visually captivating user experiences. With a strong command of industry-leading tools such as 
+    Figma, Adobe Creative Suite, Sketch, and Blender 3D, I excel in developing brand identities, creating 
+    process flows, and designing user-centric interfaces.
 </p>
 <p className={`${stylez.CurrentH1tag}`}> CURRENT</p>
 <p className={`${ darkMode ? stylez.IndividualParagraphDarkMode : stylez.IndividualParagraph}`} > 
-Working as independent contractor to help brands with visuals and design system. And most of time spending time at my studio buildding design tool and resources, Learning 3d, Experimenting in Figma, Exploring web3/NFT and Metaverse.
+Working as an independent contractor with top brands in product design and development. 
+I also spend time at my home studio building design resources, Learning 3d, Experimenting in AI, Exploring web3/NFT and Metaverse.
 </p>
 
 <p className={`${stylez.CurrentH1tag}`}>Serious enquiry and awards</p>
@@ -94,7 +100,7 @@ For partnerships, collaborations, sponsorships, commissions, events, you can rea
 </div>
 
 {/* Design Letter */}
-<div className={`${stylez.DesignLetter} flex w-full `}>
+{/* <div className={`${stylez.DesignLetter} flex w-full `}>
 <div className="w-1/2 text-start px-4 grid place-content-center  ">
     <p className={`${stylez.DesignLetterPtag} py-4 `}>Design Letter</p>
     <p>Join the designletter and get exclusive updates & digital art inspiration directly to your inbox.</p>
@@ -105,7 +111,7 @@ For partnerships, collaborations, sponsorships, commissions, events, you can rea
 <div className="w-1/2 h-full">
     <img  src='/images/about2.png' className="mx-auto w-[213px] h-[227px]"/>
 </div>
-</div>
+</div> */}
 
    {/* Reach Out */}
    <div className={`${darkMode ? styles.OverallReachOutDivDarkMode : styles.OverallReachOutDiv} flex w-full `}>
@@ -113,15 +119,15 @@ For partnerships, collaborations, sponsorships, commissions, events, you can rea
       <p className={`${styles.ReachOutPtag} my-4`}>Reach Out</p>
       <p>Want to create something awesome? Or, you have any queries?</p>
       <p>Drop a message through email or twitter.</p>
-      <div className="flex w-1/2 justify-between  pt-6 ml-0 p-2">
+      <div className="flex w-1/2 left-0 justify-center gap-4  pt-6 ml-0 p-2">
       <Link href="https://twitter.com/michaelloupa" > <img src='/images/radix.png' /> </Link>
-        <img src='/images/material-symbols_mail-outline-rounded.png' />
+      <a href="mailto:michaelloupa@gmail.com"> <img src='/images/material-symbols_mail-outline-rounded.png' /> </a>
       </div>
     </div>
 
     <div className={`${styles.ReachOutImg} w-1/2 flex relative h-full`}>
     <img  src='/images/message3d.png' className={`${styles.emailReachOut}`}/>
-    <a href="mailto:michaelloupa@gmail.com"> <img src='/images/material-symbols_mail-outline-rounded.png' /> </a>
+    
     </div>
    </div>
 

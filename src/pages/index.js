@@ -37,7 +37,10 @@ export default function Home() {
    </div>
 
    <div className={`${styles.MainDesktopNavbarSocials}`}>
-    <div> <img src='/images/twitter (2).png' /> </div>
+    <Link href='https://twitter.com/michaelloupa'>
+      <div> <img src='/images/twitter (2).png' /> 
+      </div>
+    </Link>
     <div onClick={toggleDarkMode}> <img src='/images/moon.png' /> </div>
 
    </div>
@@ -49,16 +52,16 @@ export default function Home() {
         <img src='/images/mikeProfile.png' className="mx-auto" />
       </div>
       <div className="px-4 mx-auto w-full text-center">
-        <p className="mx-auto text-[20px] text-[#0E0E0E]">Michael Loupa</p>
-        <p className="italic text-neutral-600 mx-auto text-[16px]">michaelloupa.me</p>
+        <p className="mx-auto text-[20px] text-[#0E0E0E]">Michael Kazungu</p>
+        <p className="italic text-neutral-600 mx-auto text-[16px]">michaelloupa</p>
       </div>
     </div>
     <div className="px-6 pt-[36px]">
-      <p className={`${styles.AboutFirstHero}`}>My mission as a web3 designer is to work towards giving blockchain its visual identity. 
-At a point where this space needs the trust of users, increased accessibility and wider 
-adoption, I employ a user-first approach in designing blockchain platforms that are not 
-only interactive but also have a low-entry level of its use aimed at accelerating blockchain 
-adoption.</p>
+      <p className={`${styles.AboutFirstHero}`}>As a seasoned UI/UX designer with over 
+      4 years of experience, I specialize in crafting intuitive and visually captivating 
+      user experiences. With a strong command of industry-leading tools such as Figma, 
+      Adobe Creative Suite, Sketch, and Blender 3D, I excel in developing brand 
+      identities, creating process flows, and designing user-centric interfaces.</p>
     </div>
    </div>
 

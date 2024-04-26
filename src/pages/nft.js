@@ -44,7 +44,10 @@ function Nft() {
    </div>
 
    <div className={`${styles.MainDesktopNavbarSocials}`}>
-    <div> <img src='/images/twitter (2).png' /> </div>
+   <Link href='https://twitter.com/michaelloupa'>
+      <div> <img src='/images/twitter (2).png' /> 
+      </div>
+    </Link>
     <div onClick={toggleDarkMode}> <img src='/images/moon.png' /> </div>
 
    </div>
@@ -56,7 +59,9 @@ function Nft() {
 <img  src='/images/profile2.png' className={`${stylez.nftProfile} mx-auto`}/>
 <p className={`${stylez.welcomeTo} py-1 mx-auto`} >welcome to</p>
 <p className={`${stylez.MichaelSpatial} py-1 mx-auto`}>michael loupa’s spatial</p>
-<p className={` ${darkMode ? stylez.MydigitalArtsDarkMode : stylez.MydigitalArts} w-1/2 text-center mx-auto py-2`}>My digital arts are also available to collect from various NFT platforms. Experience my digital arts in virtual experiences on my spatial.</p>
+<p className={` ${darkMode ? stylez.MydigitalArtsDarkMode : stylez.MydigitalArts} w-1/2 text-center mx-auto py-2`}>As a result of experimenting with web3,nfts and the metaverse, I developed some nfts to showcase as a proof of concept.
+My digital arts are also available to collect from various NFT platforms. 
+Experience my digital arts in virtual experiences on my virtual spaces.</p>
 <div className={`${stylez.The3Buttons} flex justify-between mx-auto py-4`} >
 <Link href='https://opensea.io/Savannah_Arts'> <img  src="/images/opensea.png" className="w-[75px]" /></Link>
  <Link href="https://www.spatial.io/@michael_loupa_53390"> <img  src="/images/spatial.png" className="w-[75px]"/></Link>
@@ -89,7 +94,7 @@ function Nft() {
   <div className={`${stylez.nftCaptionsDiv} flex items-center`}>
     <p className="pr-2">single</p>
     <img  src='/images/star.png' className="w-[10px]  h-[12px]" />
-    <p className="px-2">rarible</p>
+    <p className="px-2">Opensea</p>
   </div>
   <p className={`${darkMode ? stylez.TopicDarkMode : stylez.Topic} py-2`}>{item.tagLine}</p>
   <div className="flex items-center" >
