@@ -3,7 +3,7 @@ const projects = [
         image: "/images/swypthero.png",
         name: "Swypt",
         tagLine: "Defi app bridging crypto and African fiat currency",
-        link:"https://www.notion.so/SWYPT-Africa-s-number-one-Defi-dapp-eb489c2819984e63bfbd0cb085f59137?pvs=4"
+        link:"https://www.swypt.io"
     },
     {    id:2,
         image: "/images/img2.png",
@@ -15,17 +15,13 @@ const projects = [
         image: "/images/skyswyp.png",
         name: "Skyswyp Technologies",
         tagLine:"Website for a technology company.",
-        link:"https://www.skyswyp.co/"
+        link:"https://master.d31yejwpbwn9gd.amplifyapp.com/"
     },
     {    id:4,
         image: "/images/bba.png",
         name: "BBA",
         tagLine: "Building Africa’s largest blockchain resource center.",
-<<<<<<< HEAD
-        link:"https://www.bbafrica.co/"
-=======
-        link:"https://www.notion.so/Blockchain-Buzz-Africa-Building-Africa-s-Blockchain-Media-Resource-center-d1419a53c01d40a888fca254d296bf0d?pvs=4"
->>>>>>> b033cab53a9309bdf7c1bfc7a162817ef1c97768
+        link:"https://www.bbafrica.co"
     },
     {    id:5,
         image: "/images/img2.png",
