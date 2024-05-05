@@ -6,7 +6,16 @@ import { useContext ,useState} from 'react';
 import { AppStateContext } from '../AppState';
 import { SwipeableDrawer, Button } from '@mui/material';
 import Drawer from "@/components/drawer";
+import mixpanel from 'mixpanel-browser';
 
+//MIXPANEL
+
+mixpanel.init('db720c3a75ceff7b57e65207ad7b18e7', {debug: true, track_pageview: true, persistence: 'localStorage'});
+
+// Set this to a unique identifier for the user performing the event.
+mixpanel.identify('USER_ID')
+
+// 
 
 function TechStack() {
 
