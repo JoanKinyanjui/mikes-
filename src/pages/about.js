@@ -77,7 +77,7 @@ Working as an independent contractor with top brands in product design and devel
 I also spend time at my home studio building design resources, Learning 3d, Experimenting in AI, Exploring web3/NFT and Metaverse.
 </p>
 
-<p className={`${stylez.CurrentH1tag}`}>Serious enquiry and awards</p>
+<p className={`${stylez.CurrentH1tag}`}>Serious enquiry </p>
 <p className={`${ darkMode ? stylez.IndividualParagraphDarkMode : stylez.IndividualParagraph}`} > 
 You can find me on everywhere with handle @michaelloupa. 
 
