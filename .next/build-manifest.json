@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/c1NmFMK6JZUZuMfr2JShx/_buildManifest.js",
-    "static/c1NmFMK6JZUZuMfr2JShx/_ssgManifest.js"
+    "static/mcVtehCSzdnUJNCO-xko0/_buildManifest.js",
+    "static/mcVtehCSzdnUJNCO-xko0/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,9 +14,10 @@
       "static/chunks/webpack-0b5d8249fb15f5f3.js",
       "static/chunks/framework-6cbe6e332df95288.js",
       "static/chunks/main-d5c9aef8f3ea3bae.js",
+      "static/chunks/c0d53ec4-aca1886c59d9833a.js",
       "static/chunks/709-94ebc57f22f9866d.js",
       "static/css/2a3bc29b80368ea7.css",
-      "static/chunks/pages/index-692aff3c82c8dfb3.js"
+      "static/chunks/pages/index-0f50253578d19d3e.js"
     ],
     "/_app": [
       "static/chunks/webpack-0b5d8249fb15f5f3.js",
@@ -35,25 +36,28 @@
       "static/chunks/webpack-0b5d8249fb15f5f3.js",
       "static/chunks/framework-6cbe6e332df95288.js",
       "static/chunks/main-d5c9aef8f3ea3bae.js",
+      "static/chunks/c0d53ec4-aca1886c59d9833a.js",
       "static/chunks/709-94ebc57f22f9866d.js",
       "static/css/5cde172f6efec588.css",
-      "static/chunks/pages/about-040e38f0e3a3f030.js"
+      "static/chunks/pages/about-0e9f3f8043ae577a.js"
     ],
     "/nft": [
       "static/chunks/webpack-0b5d8249fb15f5f3.js",
       "static/chunks/framework-6cbe6e332df95288.js",
       "static/chunks/main-d5c9aef8f3ea3bae.js",
+      "static/chunks/c0d53ec4-aca1886c59d9833a.js",
       "static/chunks/709-94ebc57f22f9866d.js",
       "static/css/087db545b6f76e7f.css",
-      "static/chunks/pages/nft-b0a0e7aa24b2d682.js"
+      "static/chunks/pages/nft-53e41a9993b40e5a.js"
     ],
     "/techStack": [
       "static/chunks/webpack-0b5d8249fb15f5f3.js",
       "static/chunks/framework-6cbe6e332df95288.js",
       "static/chunks/main-d5c9aef8f3ea3bae.js",
+      "static/chunks/c0d53ec4-aca1886c59d9833a.js",
       "static/chunks/709-94ebc57f22f9866d.js",
       "static/css/e5fa2a527e48892f.css",
-      "static/chunks/pages/techStack-a2ca77a11e2a880d.js"
+      "static/chunks/pages/techStack-94c689cbb08bb726.js"
     ]
   },
   "ampFirstPages": []

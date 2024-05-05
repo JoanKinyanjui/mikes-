@@ -4,8 +4,8 @@
   "/about": "pages/about.html",
   "/api/hello": "pages/api/hello.js",
   "/": "pages/index.html",
-  "/techStack": "pages/techStack.html",
   "/nft": "pages/nft.html",
+  "/techStack": "pages/techStack.html",
   "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }
