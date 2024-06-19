@@ -6,7 +6,8 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {/* Add custom meta tags, links to stylesheets, or other head elements here */}
-          <meta name="description" content="Your website description" />
+          <meta name="Loupa Design Maverick" content="This is the portfolio website for
+          Michael Kazungu." />
           <link rel="stylesheet" href="/path/to/your/custom.css" />
 
           {/* Google Analytics script */}

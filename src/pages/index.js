@@ -76,7 +76,7 @@ export default function Home() {
    {/* Featured Projects */}
    <div className='pt-[76px] px-6 mb-[171px] '>
     <p className={`${styles.FeaturedPtag} py-4 `}>Featured Projects</p>
-    <div className="pt-[26px] flex flex-wrap justify-center gap-6">
+    <div className="pt-[26px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 {projects.map((item) => (
  <Link href={item.link} key={item.id}>
   <div key={item.id} className={`${darkMode ? styles.FaeturedProjectsDivDarkMode : styles.FaeturedProjectsDiv} grid items-center place-content-center`}>
