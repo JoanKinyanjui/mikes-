@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/",
+        "status": 200
+      }
+    ],
+    "build": {
+      "maxLambdas": 1,
+      "maxMemoryLambda": 3008,
+      "maxDuration": 600
+    }
+  }
