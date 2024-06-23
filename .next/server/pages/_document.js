@@ -55,8 +55,8 @@ class MyDocument extends (document_default()) {
                 /*#__PURE__*/ (0,jsx_runtime.jsxs)(next_document.Head, {
                     children: [
                         /*#__PURE__*/ jsx_runtime.jsx("meta", {
-                            name: "description",
-                            content: "Your website description"
+                            name: "Loupa Design Maverick",
+                            content: "This is the portfolio website for   Michael Kazungu."
                         }),
                         /*#__PURE__*/ jsx_runtime.jsx("link", {
                             rel: "stylesheet",
