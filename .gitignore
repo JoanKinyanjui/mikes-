@@ -19,6 +19,7 @@
 .env.production.local
 .next/cache/webpack/
 .next
+.next/cache/
 
 
 npm-debug.log*
